@@ -1,6 +1,7 @@
-const express = require('express')
-const router = express.Router()
-var posts = []
+const Joi = require('joi')
+const express = require('express');
+const router = express.Router();
+var posts = [] ;
 
 // Get all Posts
 router.get('/', (req,res)=>{
